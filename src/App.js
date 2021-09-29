@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebars from './components/Sidebars'
 import './App.css'
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import Dashboard from './components/Dashboard';
 import Footer from './components/Footer';
 import Cards from './components/Cards';
@@ -34,7 +34,7 @@ const App = () => {
               <Route exact path="/Others" component={OtherUtilities} />
               <Route exact path="/chart" component={Charts} />
               <Route exact path="/table" component={Tables} />
-
+              <Redirect to='/' />
             </Switch>
             <Footer />
           </div>
