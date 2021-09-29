@@ -1,6 +1,7 @@
 
-import { Link, NavLink } from 'react-router-dom';
-import web from './images/undraw_rocket.svg';
+import { Link, NavLink } from 'react-router-dom'
+
+
 
 
 const Sidebars = () => {
@@ -16,7 +17,7 @@ const Sidebars = () => {
                 </li>
                 <hr className="sidebar-divider my-0" />
                 <li className="nav-item active">
-                    <NavLink to="/ReactTask-4-routing" className="nav-link">
+                    <NavLink to="/" className="nav-link">
                         <i className="fas fa-fw fa-tachometer-alt"></i>
                         <span>Dashboard</span></NavLink>
                 </li>
@@ -33,8 +34,8 @@ const Sidebars = () => {
                     <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                         <div className="bg-white py-2 collapse-inner rounded">
                             <h6 className="collapse-header">Custom Components:</h6>
-                            <NavLink to="/ReactTask-4-routing/buttons" className="collapse-item">Buttons</NavLink>
-                            <NavLink to="/ReactTask-4-routing/cards" className="collapse-item" >Cards</NavLink>
+                            <NavLink to="/buttons" className="collapse-item">Buttons</NavLink>
+                            <NavLink to="/cards" className="collapse-item" >Cards</NavLink>
                         </div>
                     </div>
                 </li>
@@ -48,10 +49,10 @@ const Sidebars = () => {
                         data-parent="#accordionSidebar">
                         <div className="bg-white py-2 collapse-inner rounded">
                             <h6 className="collapse-header">Custom Utilities:</h6>
-                            <Link to="/ReactTask-4-routing/colors" className="collapse-item" >Colors</Link>
-                            <Link to="/ReactTask-4-routing/border" className="collapse-item">Borders</Link>
-                            <Link to="/ReactTask-4-routing/animation" className="collapse-item" >Animations</Link>
-                            <Link to="/ReactTask-4-routing/others" className="collapse-item" >Other</Link>
+                            <Link to="/colors" className="collapse-item" >Colors</Link>
+                            <Link to="/border" className="collapse-item">Borders</Link>
+                            <Link to="/animation" className="collapse-item" >Animations</Link>
+                            <Link to="others" className="collapse-item" >Other</Link>
                         </div>
                     </div>
                 </li>
@@ -93,9 +94,9 @@ const Sidebars = () => {
                     <button className="rounded-circle border-0" id="sidebarToggle"></button>
                 </div>
                 <div className="sidebar-card d-none d-lg-flex">
-                    <img className="sidebar-card-illustration mb-2" src={web} alt="..." />
+                    <img className="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="..." />
                     <p className="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
-                    <Link className="btn btn-success btn-sm">Upgrade to Pro!</Link>
+                    <Link className="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</Link>
                 </div>
             </ul>
         </>

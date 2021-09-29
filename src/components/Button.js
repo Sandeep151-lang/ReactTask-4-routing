@@ -5,14 +5,9 @@ const Button = () => {
     return (
         <div>
             <div className="container-fluid">
-
-
                 <h1 className="h3 mb-4 text-gray-800">Buttons</h1>
-
                 <div className="row">
-
                     <div className="col-lg-6">
-
                         <div className="card shadow mb-4">
                             <div className="card-header py-3">
                                 <h6 className="m-0 font-weight-bold text-primary">Circle Buttons</h6>
@@ -20,7 +15,6 @@ const Button = () => {
                             <div className="card-body">
                                 <p>Use Font Awesome Icons (included with this theme package) along with the circle
                                     buttons as shown in the examples below!</p>
-
                                 <div className="mb-2">
                                     <code>.btn-circle</code>
                                 </div>
@@ -39,7 +33,6 @@ const Button = () => {
                                 <Link href="#" className="btn btn-danger btn-circle">
                                     <i className="fas fa-trash"></i>
                                 </Link>
-
                                 <div className="mt-4 mb-2">
                                     <code>.btn-circle .btn-sm</code>
                                 </div>
@@ -58,7 +51,6 @@ const Button = () => {
                                 <Link href="#" className="btn btn-danger btn-circle btn-sm">
                                     <i className="fas fa-trash"></i>
                                 </Link>
-
                                 <div className="mt-4 mb-2">
                                     <code>.btn-circle .btn-lg</code>
                                 </div>
@@ -79,8 +71,6 @@ const Button = () => {
                                 </Link>
                             </div>
                         </div>
-
-
                         <div className="card shadow mb-4">
                             <div className="card-header py-3">
                                 <h6 className="m-0 font-weight-bold text-primary">Brand Buttons</h6>
@@ -96,14 +86,10 @@ const Button = () => {
                                     .btn-google</Link>
                                 <Link href="#" className="btn btn-facebook btn-block"><i
                                     className="fab fa-facebook-f fa-fw"></i> .btn-facebook</Link>
-
                             </div>
                         </div>
-
                     </div>
-
                     <div className="col-lg-6">
-
                         <div className="card shadow mb-4">
                             <div className="card-header py-3">
                                 <h6 className="m-0 font-weight-bold text-primary">Split Buttons with Icon</h6>
@@ -178,16 +164,10 @@ const Button = () => {
                                 </Link>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
-
         </div>
-
     )
 }
 

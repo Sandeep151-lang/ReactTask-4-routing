@@ -5,18 +5,12 @@ const Dashboards = () => {
     return (
         <div>
             <div className="container-fluid">
-
-
                 <div className="d-sm-flex align-items-center justify-content-between mb-4">
                     <h1 className="h3 mb-0 text-gray-800">Dashboard</h1>
                     <Link href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                         className="fas fa-download fa-sm text-white-50"></i> Generate Report</Link>
                 </div>
-
-
                 <div className="row">
-
-
                     <div className="col-xl-3 col-md-6 mb-4">
                         <div className="card border-left-primary shadow h-100 py-2">
                             <div className="card-body">
@@ -33,8 +27,6 @@ const Dashboards = () => {
                             </div>
                         </div>
                     </div>
-
-
                     <div className="col-xl-3 col-md-6 mb-4">
                         <div className="card border-left-success shadow h-100 py-2">
                             <div className="card-body">
@@ -51,8 +43,6 @@ const Dashboards = () => {
                             </div>
                         </div>
                     </div>
-
-
                     <div className="col-xl-3 col-md-6 mb-4">
                         <div className="card border-left-info shadow h-100 py-2">
                             <div className="card-body">
@@ -80,8 +70,6 @@ const Dashboards = () => {
                             </div>
                         </div>
                     </div>
-
-
                     <div className="col-xl-3 col-md-6 mb-4">
                         <div className="card border-left-warning shadow h-100 py-2">
                             <div className="card-body">
@@ -99,17 +87,10 @@ const Dashboards = () => {
                         </div>
                     </div>
                 </div>
-
-
-
                 <div className="row">
-
-
                     <div className="col-xl-8 col-lg-7">
                         <div className="card shadow mb-4">
-
-                            <div
-                                className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                            <div className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                 <h6 className="m-0 font-weight-bold text-primary">Earnings Overview</h6>
                                 <div className="dropdown no-arrow">
                                     <Link className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
@@ -126,7 +107,6 @@ const Dashboards = () => {
                                     </div>
                                 </div>
                             </div>
-
                             <div className="card-body">
                                 <div className="chart-area">
                                     <canvas id="myAreaChart"></canvas>
@@ -134,13 +114,9 @@ const Dashboards = () => {
                             </div>
                         </div>
                     </div>
-
-
                     <div className="col-xl-4 col-lg-5">
                         <div className="card shadow mb-4">
-
-                            <div
-                                className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                            <div className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                 <h6 className="m-0 font-weight-bold text-primary">Revenue Sources</h6>
                                 <div className="dropdown no-arrow">
                                     <Link className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
@@ -157,7 +133,6 @@ const Dashboards = () => {
                                     </div>
                                 </div>
                             </div>
-
                             <div className="card-body">
                                 <div className="chart-pie pt-4 pb-2">
                                     <canvas id="myPieChart"></canvas>
@@ -177,13 +152,8 @@ const Dashboards = () => {
                         </div>
                     </div>
                 </div>
-
-
                 <div className="row">
-
-
                     <div className="col-lg-6 mb-4">
-
                         <div className="card shadow mb-4">
                             <div className="card-header py-3">
                                 <h6 className="m-0 font-weight-bold text-primary">Projects</h6>
@@ -221,8 +191,6 @@ const Dashboards = () => {
                                 </div>
                             </div>
                         </div>
-
-
                         <div className="row">
                             <div className="col-lg-6 mb-4">
                                 <div className="card bg-primary text-white shadow">
@@ -289,12 +257,8 @@ const Dashboards = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
                     <div className="col-lg-6 mb-4">
-
-
                         <div className="card shadow mb-4">
                             <div className="card-header py-3">
                                 <h6 className="m-0 font-weight-bold text-primary">Illustrations</h6>
@@ -312,8 +276,6 @@ const Dashboards = () => {
                                     unDraw &rarr;</Link>
                             </div>
                         </div>
-
-
                         <div className="card shadow mb-4">
                             <div className="card-header py-3">
                                 <h6 className="m-0 font-weight-bold text-primary">Development Approach</h6>
@@ -326,10 +288,8 @@ const Dashboards = () => {
                                     Bootstrap framework, especially the utility classes.</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </div>
     )

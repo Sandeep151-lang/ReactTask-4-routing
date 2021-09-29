@@ -5,18 +5,13 @@ const OtherUtilities = () => {
     return (
         <div>
             <div className="container-fluid">
-
                 <h1 className="h3 mb-1 text-gray-800">Other Utilities</h1>
                 <p className="mb-4">Bootstrap's default utility classes can be found on the official <Link
                     href="https://getbootstrap.com/docs">Bootstrap Documentation</Link> page. The custom utilities
                     below were created to extend this theme past the default utility classes built into Bootstrap's
                     framework.</p>
-
                 <div className="row">
-
                     <div className="col-lg-6">
-
-
                         <div className="card mb-4">
                             <div className="card-header py-3">
                                 <h6 className="m-0 font-weight-bold text-primary">Overflow Hidden Utilty</h6>
@@ -25,7 +20,6 @@ const OtherUtilities = () => {
                                 Use <code>.o-hidden</code> to set the overflow property of any element to hidden.
                             </div>
                         </div>
-
                         <div className="card mb-4">
                             <div className="card-header py-3">
                                 <h6 className="m-0 font-weight-bold text-primary">Progress Small Utility</h6>
@@ -44,7 +38,6 @@ const OtherUtilities = () => {
                                 Use the <code>.progress-sm</code> className along with <code>.progress</code>
                             </div>
                         </div>
-
                         <div className="card mb-4">
                             <div className="card-header py-3">
                                 <h6 className="m-0 font-weight-bold text-primary">Dropdown - No Arrow</h6>
@@ -65,11 +58,8 @@ const OtherUtilities = () => {
                                 Add the <code>.no-arrow</code> className alongside the <code>.dropdown</code>
                             </div>
                         </div>
-
                     </div>
-
                     <div className="col-lg-6">
-
                         <div className="card">
                             <div className="card-header py-3">
                                 <h6 className="m-0 font-weight-bold text-primary">Rotation Utilities</h6>
@@ -82,11 +72,8 @@ const OtherUtilities = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
         </div>
     )
