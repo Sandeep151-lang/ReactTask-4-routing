@@ -19,21 +19,21 @@ const App = () => {
   return <>
 
     <div id="wrapper">
-      <Router>
+      <Router basename="/ReactTask-4-routing">
         <Sidebars />
         <div id="content-wrapper" className="d-flex flex-column">
           <div id="content">
             <Dashboard />
             <Switch>
-              <Route exact path=" " component={Dashboards} />
-              <Route exact path="/cards" component={Cards} />
-              <Route exact path="/buttons" component={Button} />
-              <Route exact path="/colors" component={ColorUtilities} />
-              <Route exact path="/border" component={BorderUtilites} />
-              <Route exact path="/animation" component={AnimationUtilies} />
-              <Route exact path="/Others" component={OtherUtilities} />
-              <Route exact path="/chart" component={Charts} />
-              <Route exact path="/table" component={Tables} />
+              <Route exact path="/ReactTask-4-routing" component={Dashboards} />
+              <Route exact path="/ReactTask-4-routing/cards" component={Cards} />
+              <Route exact path="/ReactTask-4-routing/buttons" component={Button} />
+              <Route exact path="/ReactTask-4-routing/colors" component={ColorUtilities} />
+              <Route exact path="/ReactTask-4-routing/border" component={BorderUtilites} />
+              <Route exact path="/ReactTask-4-routing/animation" component={AnimationUtilies} />
+              <Route exact path="/ReactTask-4-routing/Others" component={OtherUtilities} />
+              <Route exact path="/ReactTask-4-routing/chart" component={Charts} />
+              <Route exact path="/ReactTask-4-routing/table" component={Tables} />
             </Switch>
             <Footer />
           </div>
