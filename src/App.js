@@ -25,7 +25,7 @@ const App = () => {
           <div id="content">
             <Dashboard />
             <Switch>
-              <Route exact path="/" component={Dashboards} />
+              <Route exact path=" " component={Dashboards} />
               <Route exact path="/cards" component={Cards} />
               <Route exact path="/buttons" component={Button} />
               <Route exact path="/colors" component={ColorUtilities} />
