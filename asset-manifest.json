@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactTask-4-routing/static/css/main.a121d00f.chunk.css",
-    "main.js": "/ReactTask-4-routing/static/js/main.f1da40d5.chunk.js",
-    "main.js.map": "/ReactTask-4-routing/static/js/main.f1da40d5.chunk.js.map",
+    "main.js": "/ReactTask-4-routing/static/js/main.601becf2.chunk.js",
+    "main.js.map": "/ReactTask-4-routing/static/js/main.601becf2.chunk.js.map",
     "runtime-main.js": "/ReactTask-4-routing/static/js/runtime-main.e84b398d.js",
     "runtime-main.js.map": "/ReactTask-4-routing/static/js/runtime-main.e84b398d.js.map",
     "static/js/2.b9fe6422.chunk.js": "/ReactTask-4-routing/static/js/2.b9fe6422.chunk.js",
@@ -10,13 +10,12 @@
     "index.html": "/ReactTask-4-routing/index.html",
     "static/css/main.a121d00f.chunk.css.map": "/ReactTask-4-routing/static/css/main.a121d00f.chunk.css.map",
     "static/js/2.b9fe6422.chunk.js.LICENSE.txt": "/ReactTask-4-routing/static/js/2.b9fe6422.chunk.js.LICENSE.txt",
-    "static/media/undraw_profile.28817a9a.svg": "/ReactTask-4-routing/static/media/undraw_profile.28817a9a.svg",
-    "static/media/undraw_rocket.6040710a.svg": "/ReactTask-4-routing/static/media/undraw_rocket.6040710a.svg"
+    "static/media/undraw_profile.28817a9a.svg": "/ReactTask-4-routing/static/media/undraw_profile.28817a9a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e84b398d.js",
     "static/js/2.b9fe6422.chunk.js",
     "static/css/main.a121d00f.chunk.css",
-    "static/js/main.f1da40d5.chunk.js"
+    "static/js/main.601becf2.chunk.js"
   ]
 }
