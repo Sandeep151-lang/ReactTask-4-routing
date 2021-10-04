@@ -15,25 +15,26 @@ import Tables from './components/Tables';
 import Dashboards from './Dashboards';
 
 
+
 const App = () => {
   return <>
 
     <div id="wrapper">
-      <Router basename="/">
+      <Router>
         <Sidebars />
         <div id="content-wrapper" className="d-flex flex-column">
           <div id="content">
             <Dashboard />
             <Switch>
-              <Route path="/cards" component={Cards} />
-              <Route path="/buttons" component={Button} />
-              <Route path="/colors" component={ColorUtilities} />
-              <Route path="/border" component={BorderUtilites} />
-              <Route path="/animation" component={AnimationUtilies} />
-              <Route path="/Others" component={OtherUtilities} />
-              <Route path="/chart" component={Charts} />
-              <Route path="/table" component={Tables} />
               <Route exact path="/" component={Dashboards} />
+              <Route exact path="/cards" component={Cards} />
+              <Route exact path="/component/buttons" component={Button} />
+              <Route exact path="/utilities/colors" component={ColorUtilities} />
+              <Route exact path="/utilities/border" component={BorderUtilites} />
+              <Route exact path="/utilities/animation" component={AnimationUtilies} />
+              <Route exact path="/utilities/others" component={OtherUtilities} />
+              <Route exact path="/chart" component={Charts} />
+              <Route exact path="/table" component={Tables} />
             </Switch>
             <Footer />
           </div>

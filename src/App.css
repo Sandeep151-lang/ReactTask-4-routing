@@ -11352,5 +11352,11 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
 }
+.side-arrow{
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
 
-/* new css */
+}
+
+/* style={{"height":"30px","width":"30px","position":"absolute","top":"20px"}} */
