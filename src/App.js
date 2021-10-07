@@ -1,10 +1,10 @@
 import React from 'react'
 import Sidebars from './components/Sidebars'
 import './App.css'
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import Dashboard from './components/Dashboard';
 import Footer from './components/Footer';
-import Cards from './components/Cards';
+import CardsComponent from './components/CardsComponent';
 import Button from './components/Button';
 import ColorUtilities from './components/ColorUtilities';
 import BorderUtilites from './components/BorderUtilites';
@@ -12,7 +12,7 @@ import AnimationUtilies from './components/AnimationUtilies';
 import OtherUtilities from './components/OtherUtilities';
 import Charts from './components/Charts';
 import Tables from './components/Tables';
-import Dashboards from './Dashboards';
+import HomePage from './components/HomePage'
 
 
 
@@ -26,8 +26,8 @@ const App = () => {
           <div id="content">
             <Dashboard />
             <Switch>
-              <Route exact path="/" component={Dashboards} />
-              <Route exact path="/cards" component={Cards} />
+              <Route exact path="/" component={HomePage} />
+              <Route exact path="/component/cards" component={CardsComponent} />
               <Route exact path="/component/buttons" component={Button} />
               <Route exact path="/utilities/colors" component={ColorUtilities} />
               <Route exact path="/utilities/border" component={BorderUtilites} />
@@ -35,6 +35,7 @@ const App = () => {
               <Route exact path="/utilities/others" component={OtherUtilities} />
               <Route exact path="/chart" component={Charts} />
               <Route exact path="/table" component={Tables} />
+              <Redirect to="/" />
             </Switch>
             <Footer />
           </div>
