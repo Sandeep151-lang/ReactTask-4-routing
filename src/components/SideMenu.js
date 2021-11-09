@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 
-const SideMenu = ({ item }) => {
+const SubMenu = ({ item }) => {
     const [subnav, setSubnav] = useState(false);
 
     const showSubnav = () => setSubnav(!subnav);
@@ -16,22 +16,22 @@ const SideMenu = ({ item }) => {
             {item.icon}
             <span>{item.title}</span>
           </Link>
-         
-          <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-            {subnav && item.subNav.map((value, index) => {
-              return    <div className="bg-white py-2 collapse-inner rounded" key={index}>
+          {subnav && item.subNav.map((value, index) => {
+        return  <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            
+               <div className="bg-white py-2 collapse-inner rounded">
                 <h6 className="collapse-header">{item.subs}</h6>
 
                 <Link to={value.path} className="collapse-item">{value.title}</Link>
 
               </div>
-            })}
+        
             </div>
-         
+          })}
           
         </li>
         </>
     );
 };
 
-export default SideMenu;
+export default SubMenu;
